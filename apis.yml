@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Testing
   - Browser Automation
-  - End-to-End Testing
+  - End-To-End Testing
   - Microsoft
+  - Testing
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -20,9 +20,9 @@ apis:
   - aid: microsoft-playwright:playwright-api
     name: Playwright API
     tags:
-      - Testing
       - Browser Automation
-      - End-to-End Testing
+      - End-To-End Testing
+      - Testing
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://playwright.dev/docs/api/class-playwright
     properties:
@@ -39,9 +39,9 @@ apis:
   - aid: microsoft-playwright:testing-service-api
     name: Azure Playwright Testing Service API
     tags:
-      - Testing
-      - Cloud Testing
       - Azure
+      - Cloud Testing
+      - Testing
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/azure/playwright-testing/
     baseURL: https://eastus.api.playwright.microsoft.com/
