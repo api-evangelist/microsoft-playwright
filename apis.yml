@@ -29,7 +29,7 @@ apis:
       - url: https://playwright.dev/docs/api/class-playwright
         type: Documentation
       - url: https://playwright.dev/docs/intro
-        type: Getting Started
+        type: GettingStarted
     description: >-
       Playwright provides a cross-browser automation API for end-to-end
       testing of web applications. It supports Chromium, Firefox, and
@@ -49,7 +49,7 @@ apis:
       - url: https://learn.microsoft.com/en-us/azure/playwright-testing/
         type: Documentation
       - url: https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests
-        type: Getting Started
+        type: GettingStarted
     description: >-
       Azure Playwright Testing is a managed cloud service for running
       Playwright tests at scale. It provides browser infrastructure for
@@ -62,13 +62,13 @@ common:
     url: https://playwright.dev/
   - type: Documentation
     url: https://playwright.dev/docs/intro
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/microsoft/playwright
-  - type: Getting Started
+  - type: GettingStarted
     url: https://playwright.dev/docs/intro
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/en-us/legal/terms-of-use
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://playwright.dev/docs/support
