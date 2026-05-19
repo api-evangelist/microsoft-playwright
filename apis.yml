@@ -14,7 +14,7 @@ tags:
   - Testing
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-28'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: microsoft-playwright:playwright-api
@@ -72,6 +72,9 @@ common:
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://playwright.dev/docs/support
+  - name: MCP Server
+    url: https://github.com/microsoft/playwright-mcp
+    type: MCPServer
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
