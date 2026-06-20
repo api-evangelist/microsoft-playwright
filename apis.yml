@@ -6,7 +6,7 @@ description: >-
   Chromium, Firefox, and WebKit with a single API across multiple
   programming languages.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Browser Automation
   - End-To-End Testing
@@ -23,7 +23,7 @@ apis:
       - Browser Automation
       - End-To-End Testing
       - Testing
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://playwright.dev/docs/api/class-playwright
     properties:
       - url: https://playwright.dev/docs/api/class-playwright
@@ -42,7 +42,7 @@ apis:
       - Azure
       - Cloud Testing
       - Testing
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/azure/playwright-testing/
     baseURL: https://eastus.api.playwright.microsoft.com/
     properties:
