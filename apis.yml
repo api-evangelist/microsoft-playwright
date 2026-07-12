@@ -56,6 +56,8 @@ apis:
       parallel test execution, reducing test suite run times and enabling
       CI/CD integration with Azure DevOps and GitHub Actions.
 common:
+  - type: DomainSecurity
+    url: security/microsoft-playwright-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/playwrightweb
   - type: Portal

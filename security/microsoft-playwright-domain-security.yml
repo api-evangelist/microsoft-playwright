@@ -1,0 +1,36 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: playwright.dev
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 19 22:47:21 2026 GMT
+  hsts: true
+  hsts_max_age: 31556952
+- host: learn.microsoft.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 11 02:26:09 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: eastus.api.playwright.microsoft.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov 11 02:41:03 2026 GMT
+  hsts: null
+domains:
+- domain: playwright.dev
+  dnssec: false
+  caa:
+  - 0 contactemail "caarecordaware@microsoft.com"
+  spf: false
+  dmarc: true
+  dmarc_policy: reject
+- domain: microsoft.com
+  dnssec: false
+  caa:
+  - 0 contactemail "caarecordaware@microsoft.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
