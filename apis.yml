@@ -21,6 +21,11 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-playwright.png
 tags:
   - Browser Automation
+  - End-to-End Testing
+  - Microsoft
+  - Testing
+tags_raw:
+  - Browser Automation
   - End-To-End Testing
   - Microsoft
   - Testing
@@ -32,6 +37,10 @@ apis:
   - aid: microsoft-playwright:playwright-api
     name: Playwright API
     tags:
+      - Browser Automation
+      - End-to-End Testing
+      - Testing
+    tags_raw:
       - Browser Automation
       - End-To-End Testing
       - Testing
