@@ -27,5 +27,5 @@
     actions: true
     sources: false
     builder: Pipedream repo (component)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
