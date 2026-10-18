@@ -67,6 +67,10 @@ apis:
 - aid: microsoft-playwright:testing-service-api
   name: Azure Playwright Testing Service API
   tags:
+  - Microsoft Azure
+  - Cloud Testing
+  - Testing
+  tags_raw:
   - Azure
   - Cloud Testing
   - Testing
