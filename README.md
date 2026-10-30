@@ -1,4 +1,4 @@
-# Microsoft Playwright (microsoft-playwright)
+# Microsoft Playwright
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,57 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Playwright provides cross-browser automation APIs for end-to-end testing with Azure Playwright Testing for cloud-scale execution.
+Playwright is an open-source browser automation framework by Microsoft for reliable end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API across multiple programming languages.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/apis.yml)
+**Areas:** Browser Automation · End-to-End Testing · Microsoft · Testing
 
-## Tags:
+## Microsoft Playwright on APIs.io
 
- - Testing, Browser Automation, End-to-End Testing, Azure
+Everything profiled for Microsoft Playwright is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-playwright/](https://apis.io/providers/microsoft-playwright/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (3)
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+- [Playwright API](https://apis.io/apis/microsoft-playwright/playwright-api/) — Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API,…
+- [Azure Playwright Testing Service API](https://apis.io/apis/microsoft-playwright/testing-service-api/) — Azure Playwright Testing is a managed cloud service for running Playwright tests at scale. It provides browser infrastructure for parallel test execution,…
+- [Playwright](https://apis.io/apis/microsoft-playwright/playwright/) — Open-source framework for reliable end-to-end browser testing and web automation supporting Chromium, Firefox, and WebKit. Distributed as a library/CLI;…
 
-## APIs
+### Published properties
 
-### Playwright API
-Cross-browser automation API supporting Chromium, Firefox, and WebKit for end-to-end testing.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://playwright.dev/docs/api/class-playwright](https://playwright.dev/docs/api/class-playwright)
+#### MCP servers (1)
 
-#### Tags:
+Model Context Protocol servers that expose the API to agents.
 
- - Testing, Browser Automation, End-to-End Testing
+- [MCP Server](https://apis.io/servers/microsoft-playwright/mcp-server/)
 
-#### Properties
+#### Security (1)
 
-- [Documentation](https://playwright.dev/docs/api/class-playwright)
+Authentication, trust centre, and vulnerability disclosure.
 
-### Azure Playwright Testing Service API
-Managed cloud service for running Playwright tests at scale with parallel execution.
+- [Microsoft Playwright Domain Security](https://apis.io/security/microsoft-playwright/microsoft-playwright-domain-security/)
 
-**Human URL:** [https://learn.microsoft.com/en-us/azure/playwright-testing/](https://learn.microsoft.com/en-us/azure/playwright-testing/)
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - Testing, Cloud Testing, Azure
+- [Microsoft Playwright Plans Pricing](https://apis.io/plans/microsoft-playwright/microsoft-playwright-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://learn.microsoft.com/en-us/azure/playwright-testing/)
+Published request limits.
 
-## Common Properties
+- [Microsoft Playwright Rate Limits](https://apis.io/rate-limits/microsoft-playwright/microsoft-playwright-rate-limits/)
 
-- [Portal](https://playwright.dev/)
-- [GitHub Organization](https://github.com/microsoft/playwright)
-- [Getting Started](https://playwright.dev/docs/intro)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
+#### FinOps (1)
 
-## Maintainers
+What the API costs to run, by operation.
 
-**FN:** Kin Lane
+- [Microsoft Playwright Finops](https://apis.io/finops/microsoft-playwright/microsoft-playwright-finops/)
 
-**Email:** kin@apievangelist.com
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://playwright.dev/)
+- [Documentation](https://playwright.dev/docs/intro)
+- [Getting started](https://playwright.dev/docs/intro)
+- [Support](https://playwright.dev/docs/support)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/microsoft/playwright)
+
+## API Evangelist rating
+
+**Kin Score 23.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 28.9 |
+
+**Agent readiness 3.7** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-playwright/](https://apis.io/providers/microsoft-playwright/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Playwright: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-playwright/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
